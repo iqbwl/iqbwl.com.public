@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-us" class="scroll-smooth">
+    <head><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cara compress file dengan zip di Ubuntu</title>
+<meta name="description" content="ZIP is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed">
+<link rel="canonical" href="https://iqbwl.com/posts/cara-compress-file-dengan-zip-di-ubuntu/">
+<link rel="robots" href="/robots.txt" />
+
+
+<link rel="stylesheet" href="https://iqbwl.com/css/main.min.2992eff0667c58ca8778345b8a3172946f2c998acbe207c040d597c7bd78898c.css" integrity="sha256-KZLv8GZ8WMqHeDRbijFylG8smYrL4gfAQNWXx714iYw=">
+<link rel="shortcut icon" type="image/png" href="/icon/android-chrome-512x512.png">
+    <link rel="shortcut icon" sizes="192x192" href="/icon/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" href="/icon/apple-touch-icon.png">
+    </head>
+    <body class="max-w-screen-md px-10 mx-auto"><header class="flex flex-col sm:flex-row items-center gap-5 sm:gap-10 pt-16 py-12">
+    
+
+<figure class="flex-none w-20 h-20 rounded-full overflow-hidden" ><a href="https://iqbwl.com/"><img srcset="/img/profile_hu783c652a2f06c810b99c9896fd627636_108176_80x80_fill_q90_box_smart1.jpg 80w" src="/img/profile.jpg" width="640" height="640" alt="Iqbwl"></a></figure>
+
+    <div class="flex flex-col gap-5">
+    <a href="https://iqbwl.com/">
+    
+    <h3 class="text-center sm:text-left text-4xl font-extrabold text-gray-800 ">Iqbwl</h3>
+    
+</a>
+    <nav>
+    <ul class="flex flex-wrap justify-center uppercase text-xs font-semibold gap-7 text-gray-500 ">
+        
+        
+        <li class="hover:text-gray-500"><a href="/">Home</a></li>
+        
+        <li class="hover:text-gray-500"><a href="/posts">Posts</a></li>
+        
+    </ul>
+</nav>
+    </div>
+</header><div id="content">
+<article class="flex flex-col gap-10">
+    <header class="flex flex-col gap-2">
+        <h2 class="text-4xl leading-snug font-bold text-gray-900">Cara compress file dengan zip di Ubuntu</h2>
+
+        <div class="text-sm font-semibold text-gray-500 flex gap-3">
+        
+<time datetime="2023-01-05 09:59:56 &#43;0700 WIB" title="2023-01-05 09:59:56 &#43;0700 WIB">
+    5 January 2023
+</time>
+        
+        —
+        
+            <a class="hover:text-gray-500" href="/categories/linux/" alt="Linux" >
+                Linux
+                </a>
+        
+
+        </div>
+    </header>
+    <section class="content text-lg text-gray-800">
+    <p>Untuk install zip, silakan install menggunakan perintah dibawah.</p>
+<p><img src="/images/zip.png" alt="Zip"></p>
+<p>Ubuntu</p>
+<pre><code>apt install zip unzip -y
+</code></pre>
+<p>Lagsung saja gunakan perintah berikut:</p>
+<pre><code>zip namafile.zip namafile -9 -v
+</code></pre>
+<p>Untuk directory:</p>
+<pre><code>zip -r namafile.zip namafile -9 -v
+</code></pre>
+<p>Catatan: -9 untuk compress secara lebih baik, -v untuk menampilkan output</p>
+<p>Option:</p>
+<pre><code>-f	freshen: only changed files
+-u	update: only changed or new files
+-d	delete entries in zipfile
+-m	move into zipfile (delete OS files)
+-r	recurse into directories
+-j	junk (don’t record) directory names
+-0	store only
+-l	convert LF to CR LF (-ll CR LF to LF)
+-1	compress faster
+-9	compress better
+-q	quiet operation
+-v	verbose operation/print version info
+-c	add one-line comments
+-z	add zipfile comment
+-@	read names from stdin
+-o	make zipfile as old as latest entry
+-x	exclude the following names
+-i	include only the following names
+-F	fix zipfile (-FF try harder)
+-D	do not add directory entries
+-A	adjust self-extracting exe
+-J	junk zipfile prefix (unzipsfx)
+-T	test zipfile integrity
+-X	eXclude eXtra file attributes
+-y	store symbolic links as the link instead of the referenced file
+-e	encrypt
+-n	don’t compress these suffixes
+-h2	show more help
+</code></pre>
+
+    </section>
+    
+    
+    
+
+    
+    
+        <div class="disqus-comment">
+    </div>
+    
+
+    <footer>
+        
+        <div class="pb-14 inline-flex gap-2 text-gray-600 text-sm font-medium">
+            
+                    <a class="bg-gray-100 py-2 px-3 rounded-lg" href="/tags/ubuntu/" alt="ubuntu" >
+                        ubuntu
+                    </a>
+            
+                    <a class="bg-gray-100 py-2 px-3 rounded-lg" href="/tags/zip/" alt="zip" >
+                        zip
+                    </a>
+            
+        </div>
+
+    </footer>
+</article>
+
+        </div><footer class="pt-5 pb-10 grid gap-3 sm:grid-cols-2">
+    <div class="text-xs font-semibold text-gray-500 order-2 sm:order-1 ">
+    © 2023 — <a class="hover:text-gray-500" href="https://iqbwl.com/">Iqbwl</a> <span class=" font-normal ">with</span> <a class="hover:text-gray-500" href="https://github.com/nixentric/Lowkey-Hugo-Theme" target="_blank" rel="noopener noreferrer">Lowkey</a>
+</div>
+    <div class="text-xs font-semibold text-gray-500 order-1 sm:order-2">
+    <ul class="flex sm:justify-end gap-5">
+    <li><a class="hover:text-gray-500" href="https://twitter.com/iqbwlx" target="_blank" rel="noopener noreferrer">Twitter</a></li><li><a class="hover:text-gray-500" href="https://lenster.xyz/u/iqbwl" target="_blank" rel="noopener noreferrer">Lens</a></li><li><a class="hover:text-gray-500" href="https://github.com/iqbwl" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    </ul>
+</div>
+</footer></body>
+</html>

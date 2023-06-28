@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zip on Iqbwl</title>
+    <link>https://iqbwl.com/tags/zip/</link>
+    <description>Recent content in zip on Iqbwl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Thu, 05 Jan 2023 09:59:56 +0700</lastBuildDate><atom:link href="https://iqbwl.com/tags/zip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara compress file dengan zip di Ubuntu</title>
+      <link>https://iqbwl.com/posts/cara-compress-file-dengan-zip-di-ubuntu/</link>
+      <pubDate>Thu, 05 Jan 2023 09:59:56 +0700</pubDate>
+      
+      <guid>https://iqbwl.com/posts/cara-compress-file-dengan-zip-di-ubuntu/</guid>
+      <description>Untuk install zip, silakan install menggunakan perintah dibawah.
+Ubuntu
+apt install zip unzip -yLagsung saja gunakan perintah berikut:</description>
+    </item>
+    
+  </channel>
+</rss>
