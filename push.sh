@@ -3,7 +3,7 @@ git add .
 
 # commit
 
-echo -e "\033[0;32mCommit files...\033[0m"
+printf "\033[0;32mCommit files...\033[0m"
 
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
@@ -11,7 +11,7 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
-echo -e "\033[0;32mPush to GitHub...\033[0m"
+printf "\033[0;32mPush to GitHub...\033[0m"
 # push
 git push gh master
 
