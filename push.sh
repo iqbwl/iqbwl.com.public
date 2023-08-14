@@ -12,7 +12,7 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
-printf "\033[0;32mPush to GitHub...\033[0m"
+printf "\033[0;32mPush to GitHub Pages...\033[0m"
 printf '%.0s\n'
 
 # push
