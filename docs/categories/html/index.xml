@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on Iqbwl</title>
+    <link>https://iqbwl.com/categories/html/</link>
+    <description>Recent content in HTML on Iqbwl</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Thu, 22 Sep 2022 09:59:56 +0700</lastBuildDate><atom:link href="https://iqbwl.com/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redirect menggunakan html</title>
+      <link>https://iqbwl.com/posts/redirect-menggunakan-html/</link>
+      <pubDate>Thu, 22 Sep 2022 09:59:56 +0700</pubDate>
+      
+      <guid>https://iqbwl.com/posts/redirect-menggunakan-html/</guid>
+      <description>Untuk redirect menggunakan html, cukup tambahkan parameter berikut pada header html:
+&amp;lt;meta http-equiv=&amp;quot;Refresh&amp;quot; content=&amp;quot;0; url=&#39;https://iqbal.id&#39;&amp;quot; /&amp;gt;Agar ada jeda beberapa detik sebelum redirect, ganti value content menjadi angka yang diinginkan, misal 3 untuk 3 detik.</description>
+    </item>
+    
+  </channel>
+</rss>
